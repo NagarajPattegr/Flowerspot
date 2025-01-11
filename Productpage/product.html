@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - FlowerSpot</title>
+    <link rel="icon" href="../floweres/website_logo.png">
+    <link rel="stylesheet" href="productstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../floweres/website_logo.png" alt="Website_logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="../LandingPage/index.html">Home</a></li>
+            <li><a href="../Order/orderpage.html">Orders</a></li>
+            <li><a href="../Cart/cart.html">Cart</a></li>
+            <li><a href="../About/about.html">About</a></li>
+        </ul>
+        <span class="nav-btn" id="navbtn">&#9776;</span>
+    </header>
+    <main>
+        <section class="product-details">
+            <div class="product-image">
+                <img id="productImage" src="" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <h1 id="productName"></h1>
+                <p id="productPrice"></p>
+                <p id="productType"></p>
+                <a  id="buyNowBtn">Buy Now</a>
+                <a id="addToCartBtn">Add to Cart</a>
+            </div>
+        </section>
+
+        <section class="product-reviews">
+            <h2>Customer Reviews</h2>
+            <div id="reviewsContainer">
+            <form id="reviewForm">
+                <textarea id="reviewText" placeholder="Write a review..." required></textarea>
+                <button type="button" id="submit">Submit Review</button>
+            </form>
+        </div>
+        <div id="review-section">
+                
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 FlowerSpot. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
