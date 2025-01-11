@@ -50,7 +50,7 @@ const uniqueItems = items.reduce((acc, current) => {
     return acc;
 }, []);
 
-if(arr.length===0){
+if(uniqueItems.length===0){
     container.innerHTML="No order"
    }
 
