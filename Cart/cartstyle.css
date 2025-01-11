@@ -56,7 +56,7 @@ header img {
 }
 a{
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .nav-btn,
@@ -140,7 +140,7 @@ main {
 }
 
 .cartcontainer button {
-    background-color: rgba(132, 119, 255, 9.712);;
+    background-color: rgba(132, 119, 255, 9.712);
     color: rgb(14, 9, 19);
     border: none;
     padding: 12px 30px;
@@ -158,7 +158,6 @@ main {
     transform: translateY(-3px);
 }
 
-/* Large screens adjustments (max-width: 1440px) */
 @media (max-width: 1440px) {
     .nav-list {
         font-size: 1.8rem;
