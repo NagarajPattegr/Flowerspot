@@ -162,7 +162,7 @@ button {
     cursor: pointer;
     width: 50%;
     margin: 2rem 25%;
-    font-size: 2rem;
+    font-size: 1.4rem;
     transition: background-color 0.3s ease;
 }
 footer {
