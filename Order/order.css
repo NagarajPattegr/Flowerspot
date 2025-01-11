@@ -121,6 +121,7 @@ main {
     text-align: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     border:5px solid black;
+    font-size: 2rem;
 }
 
 .ordercontainer h1 ,h3{

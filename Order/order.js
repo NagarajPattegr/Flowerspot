@@ -52,8 +52,7 @@ const uniqueItems = items.reduce((acc, current) => {
 
 if(uniqueItems.length===0){
     container.innerHTML="No order"
-   }
-
+   }else{
 uniqueItems.forEach(item => {
 
     const card = document.createElement("div");
@@ -70,4 +69,5 @@ uniqueItems.forEach(item => {
 
     container.appendChild(card);
 });
+   }
 })
