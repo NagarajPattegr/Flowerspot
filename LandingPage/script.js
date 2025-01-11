@@ -83,7 +83,7 @@ function renderProduct(flowers) {
             box.classList.add("card");
             box.setAttribute("id", flowers[i].id)
             box.innerHTML = `
-                <a href="./Productpage/product.html?name=${encodeURIComponent(flowers[i].name)}&price=${encodeURIComponent(flowers[i].price)}&type=Type : ${encodeURIComponent(flowers[i].type)}&link=.${encodeURIComponent(flowers[i].link)}&pid=${encodeURIComponent(flowers[i].id)}">
+                <a href="./Productpage/product.html?name=${encodeURIComponent(flowers[i].name)}&price=${encodeURIComponent(flowers[i].price)}&type=Type : ${encodeURIComponent(flowers[i].type)}&link=${encodeURIComponent("."+flowers[i].link)}&pid=${encodeURIComponent(flowers[i].id)}">
                     <img src="${flowers[i].link}" class="image" alt="Image">
                     <p class="name">${flowers[i].name}</p>
                     <p class="price">${flowers[i].price}</p>
