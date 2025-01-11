@@ -50,6 +50,10 @@ const uniqueItems = items.reduce((acc, current) => {
     return acc;
 }, []);
 
+if(arr.length===0){
+    container.innerHTML="Cart is empty"
+   }
+
 uniqueItems.forEach(item => {
 
     const card = document.createElement("div");
