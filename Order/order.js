@@ -51,7 +51,7 @@ const uniqueItems = items.reduce((acc, current) => {
 }, []);
 
 if(arr.length===0){
-    container.innerHTML="Cart is empty"
+    container.innerHTML="No order"
    }
 
 uniqueItems.forEach(item => {
