@@ -43,7 +43,7 @@ if (name && type && pid && price && link) {
 }
 
 const uniqueItems = items.reduce((acc, current) => {
-    const x = acc.find(item => item.id === current.id);
+    const x = acc.find(item => item.orderId === current.orderId);
     if (!x) {
         acc.push(current);
     }
